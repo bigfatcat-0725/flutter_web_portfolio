@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_web_portfolio/constants.dart';
-import 'package:flutter_web_portfolio/screens/home/home_screen.dart';
+import 'package:flutter_web_portfolio/intro.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:url_strategy/url_strategy.dart';
@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
               bodyText2: TextStyle(color: bodyTextColor),
             ),
       ),
-      home: HomeScreen(),
+      home: Intro(),
     );
   }
 }
